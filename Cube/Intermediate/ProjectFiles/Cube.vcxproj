@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup Label="ProjectConfigurations">
+		<ProjectConfiguration Include="DebugGame_Game|Win32">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Game|x64">
+			<Configuration>DebugGame_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|Win32">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="DebugGame_Editor|x64">
+			<Configuration>DebugGame_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|Win32">
+			<Configuration>Development_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Game|x64">
+			<Configuration>Development_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|Win32">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Development_Editor|x64">
+			<Configuration>Development_Editor</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|Win32">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>Win32</Platform>
+		</ProjectConfiguration>
+		<ProjectConfiguration Include="Shipping_Game|x64">
+			<Configuration>Shipping_Game</Configuration>
+			<Platform>x64</Platform>
+		</ProjectConfiguration>
+	</ItemGroup>
+	<PropertyGroup Label="Globals">
+		<ProjectGuid>{0FE6F7F9-D6FF-48DE-9977-94407A2F07C0}</ProjectGuid>
+		<Keyword>MakeFileProj</Keyword>
+		<RootNamespace>Cube</RootNamespace>
+		<PlatformToolset>v141</PlatformToolset>
+		<MinimumVisualStudioVersion>15.0</MinimumVisualStudioVersion>
+		<TargetRuntime>Native</TargetRuntime>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="Configuration">
+		<ConfigurationType>Makefile</ConfigurationType>
+		<PlatformToolset>v141</PlatformToolset>
+	</PropertyGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+	<ImportGroup Label="ExtensionSettings" />
+	<PropertyGroup Label="UserMacros" />
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Cube-Win32-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'">
+		<OutDir>C:\Unreal\UE_4.19\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>C:\Unreal\UE_4.19\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Cube-Win64-DebugGame.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat CubeEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat CubeEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat CubeEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Unreal\UE_4.19\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win32 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Cube.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'">
+		<OutDir>C:\Unreal\UE_4.19\Engine\Intermediate\Build\Unused\</OutDir>
+		<IntDir>C:\Unreal\UE_4.19\Engine\Intermediate\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>@echo Win32 is not a supported platform for CubeEditor. Valid platforms are Win64.</NMakeCleanCommandLine>
+		<NMakeOutput/>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Cube.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat CubeEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat CubeEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat CubeEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Unreal\UE_4.19\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win32\Cube-Win32-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
+		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+	</ImportGroup>
+	<PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'">
+		<IncludePath />
+		<ReferencePath />
+		<LibraryPath />
+		<LibraryWPath />
+		<SourcePath />
+		<ExcludePath />
+		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
+		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
+		<NMakeBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Build.bat Cube Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Rebuild.bat Cube Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Unreal\UE_4.19\Engine\Build\BatchFiles\Clean.bat Cube Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -WaitMutex -FromMsBuild</NMakeCleanCommandLine>
+		<NMakeOutput>..\..\Binaries\Win64\Cube-Win64-Shipping.exe</NMakeOutput>
+	</PropertyGroup>
+	<ItemGroup>
+		<None Include="..\..\Cube.uproject" />
+		<None Include="..\..\Source\Cube.Target.cs" />
+		<None Include="..\..\Source\CubeEditor.Target.cs" />
+		<None Include="..\..\Config\DefaultEditor.ini" />
+		<None Include="..\..\Config\DefaultEngine.ini" />
+		<None Include="..\..\Config\DefaultGame.ini" />
+		<None Include="..\..\Source\Cube\Cube.Build.cs" />
+		<ClCompile Include="..\..\Source\Cube\Cube.cpp" />
+		<ClInclude Include="..\..\Source\Cube\Cube.h" />
+		<ClCompile Include="..\..\Source\Cube\CubeGameModeBase.cpp" />
+		<ClInclude Include="..\..\Source\Cube\CubeGameModeBase.h" />
+	</ItemGroup>
+	<PropertyGroup>
+		<SourcePath></SourcePath>
+	</PropertyGroup>
+	<PropertyGroup>
+		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=0;UE_EDITOR=1;ENABLE_PGO_PROFILE=0;WITH_DEV_AUTOMATION_TESTS=1;WITH_PERF_AUTOMATION_TESTS=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=1;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=0;WITH_PLUGIN_SUPPORT=0;WITH_PERFCOUNTERS=1;USE_LOGGING_IN_SHIPPING=0;WITH_LOGGING_TO_MEMORY=0;USE_CACHE_FREED_OS_ALLOCS=1;USE_CHECKS_IN_SHIPPING=0;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;WITH_CEF3=1;WITH_XGE_CONTROLLER=1;UBT_COMPILED_PLATFORM=Win64;UBT_COMPILED_TARGET=Editor;WIN32=1;_WIN32_WINNT=0x0601;WINVER=0x0601;PLATFORM_WINDOWS=1;DEPTH_32_BIT_CONVERSION=0;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-Cube.dll";UE_IS_ENGINE_MODULE=0;UE_BUILD_DEVELOPMENT_WITH_DEBUGGAME=0;UE_PROJECT_NAME=Cube;DEPRECATED_FORGAME=DEPRECATED;CUBE_API=;UE_ENABLE_ICU=1;WITH_VS_PERF_PROFILER=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_APEX_CLOTHING=1;WITH_CLOTH_COLLISION_DETECTION=1;WITH_PHYSX_COOKING=1;WITH_NVCLOTH=1;WITH_RECAST=1;GPUPARTICLE_LOCAL_VF_ONLY=0;ENGINE_API=;APPLICATIONCORE_API=;RHI_API=;JSON_API=;SLATE_DEFERRED_DESIRED_SIZE=0;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;WITH_UNREALPNG=1;WITH_UNREALJPEG=1;WITH_UNREALEXR=1;IMAGEWRAPPER_API=;MESSAGING_API=;MESSAGINGCOMMON_API=;RENDERCORE_API=;SHADERCORE_API=;UTILITYSHADERS_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;GAMEPLAYTAGS_API=;WITH_GAMEPLAY_DEBUGGER=1;AIMODULE_API=;GAMEPLAYTASKS_API=;DATABASESUPPORT_API=;PACKETHANDLER_API=;RELIABILITYHANDLERCOMPONENT_API=;HARDWARESURVEY_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;LOAD_PLUGINS_FOR_TARGET_PLATFORMS=1;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCE_CONTROL_WITH_SLATE=1;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;CURL_ENABLE_DEBUG_CALLBACK=1;CURL_ENABLE_NO_TIMEOUTS_OPTION=1;HTTP_API=;UNREALAUDIO_API=;FUNCTIONALTESTING_API=;AUTOMATIONCONTROLLER_API=;LOCALIZATION_API=;AUDIOEDITOR_API=;LEVELEDITOR_API=;SETTINGS_API=;INTROTUTORIALS_API=;HEADMOUNTEDDISPLAY_API=;VREDITOR_API=;COMMONMENUEXTENSIONS_API=;LANDSCAPE_API=;PROPERTYEDITOR_API=;ACTORPICKERMODE_API=;SCENEDEPTHPICKERMODE_API=;DETAILCUSTOMIZATIONS_API=;CLASSVIEWER_API=;GRAPHEDITOR_API=;CONTENTBROWSER_API=;ENABLE_HTTP_FOR_NFS=1;NETWORKFILESYSTEM_API=;SOCKETS_PACKAGE=1;SOCKETS_API=;UMG_API=;MOVIESCENE_API=;MOVIESCENETRACKS_API=;WITH_OGGVORBIS=1;XAUDIO2_API=;AUDIOMIXERXAUDIO2_API=;COLLECTIONMANAGER_API=;ADDCONTENTDIALOG_API=;USE_EMBREE=1;MESHUTILITIES_API=;MESHMERGEUTILITIES_API=;HIERARCHICALLODUTILITIES_API=;MESHREDUCTIONINTERFACE_API=;ASSETTOOLS_API=;KISMETCOMPILER_API=;KISMET_API=;CLOTHINGSYSTEMRUNTIMEINTERFACE_API=;NETWORKREPLAYSTREAMING_API=;AUDIOMIXER_API=</NMakePreprocessorDefinitions>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Unreal\UE_4.19\Engine\Source;..\..\Source;..\Build\Win64\UE4Editor\Inc\Cube;..\..\Source\Cube;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Async;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Concurrency;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Containers;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Delegates;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\HAL;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Logging;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Math;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Misc;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Modules;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Stats;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Templates;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\UObject;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Windows;C:\Unreal\UE_4.19\Engine\Source\Runtime\Core;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Internationalization;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Serialization\Formatters;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\AI;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\AI\Navigation;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Animation;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Curves;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\EdGraph;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Internationalization;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Net;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\PacketHandlers;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Performance;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Physics;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\ProfilingDebugging;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Rendering;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Slate;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\Tests;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine\Public\VisualLogger;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\Unreal\UE_4.19\Engine\Source\Runtime\Engine;C:\Unreal\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\GenericPlatform;C:\Unreal\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\HAL;C:\Unreal\UE_4.19\Engine\Source\Runtime\ApplicationCore\Public\Windows;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ApplicationCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\ApplicationCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\RHI\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\Unreal\UE_4.19\Engine\Source\Runtime\RHI;C:\Unreal\UE_4.19\Engine\Source\Runtime\Json\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Json\Public\Dom;C:\Unreal\UE_4.19\Engine\Source\Runtime\Json\Public\Policies;C:\Unreal\UE_4.19\Engine\Source\Runtime\Json\Public\Serialization;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\Unreal\UE_4.19\Engine\Source\Runtime\Json;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Animation;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Application;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Brushes;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Fonts;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Input;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Layout;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Logging;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Rendering;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Sound;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Stats;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Styling;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Textures;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Types;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore\Public\Widgets;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\SlateCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore\Public\GenericPlatform;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore\Public\HAL;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore\Public\Windows;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\InputCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Application;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Commands;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Docking;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Layout;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MetaData;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Notifications;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Styling;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Text;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Framework\Views;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Colors;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Docking;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Images;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Input;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Layout;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Text;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate\Public\Widgets\Views;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\Unreal\UE_4.19\Engine\Source\Runtime\Slate;C:\Unreal\UE_4.19\Engine\Source\Runtime\ImageWrapper\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ImageWrapper;C:\Unreal\UE_4.19\Engine\Source\Runtime\ImageWrapper;C:\Unreal\UE_4.19\Engine\Source\Runtime\Messaging\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\Unreal\UE_4.19\Engine\Source\Runtime\Messaging;C:\Unreal\UE_4.19\Engine\Source\Runtime\MessagingCommon\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MessagingCommon;C:\Unreal\UE_4.19\Engine\Source\Runtime\MessagingCommon;C:\Unreal\UE_4.19\Engine\Source\Runtime\RenderCore\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\RenderCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\ShaderCore\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\ShaderCore;C:\Unreal\UE_4.19\Engine\Source\Runtime\UtilityShaders\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UtilityShaders;C:\Unreal\UE_4.19\Engine\Source\Runtime\UtilityShaders;C:\Unreal\UE_4.19\Engine\Source\Runtime\AssetRegistry\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\Unreal\UE_4.19\Engine\Source\Runtime\AssetRegistry;C:\Unreal\UE_4.19\Engine\Source\Runtime\EngineMessages\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\Unreal\UE_4.19\Engine\Source\Runtime\EngineMessages;C:\Unreal\UE_4.19\Engine\Source\Runtime\EngineSettings\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\EngineSettings\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\Unreal\UE_4.19\Engine\Source\Runtime\EngineSettings;C:\Unreal\UE_4.19\Engine\Source\Runtime\SynthBenchmark\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\Unreal\UE_4.19\Engine\Source\Runtime\SynthBenchmark;C:\Unreal\UE_4.19\Engine\Source\Runtime\Renderer\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\Unreal\UE_4.19\Engine\Source\Runtime\Renderer;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTags\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTags\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTags;C:\Unreal\UE_4.19\Engine\Source\Runtime\AIModule\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\AIModule\Classes;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\Unreal\UE_4.19\Engine\Source\Runtime\AIModule;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTasks\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTasks\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;C:\Unreal\UE_4.19\Engine\Source\Runtime\GameplayTasks;C:\Unreal\UE_4.19\Engine\Source\Runtime\DatabaseSupport\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;C:\Unreal\UE_4.19\Engine\Source\Runtime\DatabaseSupport;C:\Unreal\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;C:\Unreal\UE_4.19\Engine\Source\Runtime\PacketHandlers\PacketHandler;C:\Unreal\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ReliabilityHandlerComponent;C:\Unreal\UE_4.19\Engine\Source\Runtime\PacketHandlers\ReliabilityHandlerComponent;C:\Unreal\UE_4.19\Engine\Source\Runtime\HardwareSurvey\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HardwareSurvey;C:\Unreal\UE_4.19\Engine\Source\Runtime\HardwareSurvey;C:\Unreal\UE_4.19\Engine\Source\Programs\UnrealLightmass\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\AutoReimport;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Features;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Layers;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Settings;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Tests;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEd;C:\Unreal\UE_4.19\Engine\Source\Editor\BspMode\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;C:\Unreal\UE_4.19\Engine\Source\Editor\BspMode;C:\Unreal\UE_4.19\Engine\Source\Developer\DirectoryWatcher\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\Unreal\UE_4.19\Engine\Source\Developer\DirectoryWatcher;C:\Unreal\UE_4.19\Engine\Source\Editor\Documentation\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\Unreal\UE_4.19\Engine\Source\Editor\Documentation;C:\Unreal\UE_4.19\Engine\Source\Runtime\Projects\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\Unreal\UE_4.19\Engine\Source\Runtime\Projects;C:\Unreal\UE_4.19\Engine\Source\Runtime\SandboxFile\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\Unreal\UE_4.19\Engine\Source\Runtime\SandboxFile;C:\Unreal\UE_4.19\Engine\Source\Editor\EditorStyle\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\EditorStyle\Public\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\Unreal\UE_4.19\Engine\Source\Editor\EditorStyle;C:\Unreal\UE_4.19\Engine\Source\Developer\SourceControl\Public;C:\Unreal\UE_4.19\Engine\Source\Developer\SourceControl\Public\Tests;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\Unreal\UE_4.19\Engine\Source\Developer\SourceControl;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEdMessages\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEdMessages\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\Unreal\UE_4.19\Engine\Source\Editor\UnrealEdMessages;C:\Unreal\UE_4.19\Engine\Source\Developer\GameplayDebugger\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;C:\Unreal\UE_4.19\Engine\Source\Developer\GameplayDebugger;C:\Unreal\UE_4.19\Engine\Source\Editor\BlueprintGraph\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\BlueprintGraph\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\Unreal\UE_4.19\Engine\Source\Editor\BlueprintGraph;C:\Unreal\UE_4.19\Engine\Source\Runtime\Online\HTTP\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;C:\Unreal\UE_4.19\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;C:\Unreal\UE_4.19\Engine\Source\Runtime\Online\HTTP\Public\Windows;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\Unreal\UE_4.19\Engine\Source\Runtime\Online\HTTP;C:\Unreal\UE_4.19\Engine\Source\Runtime\UnrealAudio\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\Unreal\UE_4.19\Engine\Source\Runtime\UnrealAudio;C:\Unreal\UE_4.19\Engine\Source\Developer\FunctionalTesting\Classes;C:\Unreal\UE_4.19\Engine\Source\Developer\FunctionalTesting\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;C:\Unreal\UE_4.19\Engine\Source\Developer\FunctionalTesting;C:\Unreal\UE_4.19\Engine\Source\Developer\AutomationController\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AutomationController;C:\Unreal\UE_4.19\Engine\Source\Developer\AutomationController;C:\Unreal\UE_4.19\Engine\Source\Developer\Localization\Public;C:\Unreal\UE_4.19\Engine\Source\Developer\Localization\Public\Serialization;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Localization;C:\Unreal\UE_4.19\Engine\Source\Developer\Localization;C:\Unreal\UE_4.19\Engine\Source\Editor\AudioEditor\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\AudioEditor\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\AudioEditor\Public\AssetTypeActions;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\AudioEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\LevelEditor\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\LevelEditor;C:\Unreal\UE_4.19\Engine\Source\Developer\Settings\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\Unreal\UE_4.19\Engine\Source\Developer\Settings;C:\Unreal\UE_4.19\Engine\Source\Editor\IntroTutorials\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\Unreal\UE_4.19\Engine\Source\Editor\IntroTutorials;C:\Unreal\UE_4.19\Engine\Source\Runtime\HeadMountedDisplay\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HeadMountedDisplay;C:\Unreal\UE_4.19\Engine\Source\Runtime\HeadMountedDisplay;C:\Unreal\UE_4.19\Engine\Source\Editor\VREditor\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VREditor;C:\Unreal\UE_4.19\Engine\Source\Editor\VREditor;C:\Unreal\UE_4.19\Engine\Source\Editor\CommonMenuExtensions\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CommonMenuExtensions;C:\Unreal\UE_4.19\Engine\Source\Editor\CommonMenuExtensions;C:\Unreal\UE_4.19\Engine\Source\Runtime\Landscape\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\Landscape\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Landscape;C:\Unreal\UE_4.19\Engine\Source\Runtime\Landscape;C:\Unreal\UE_4.19\Engine\Source\Editor\PropertyEditor\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PropertyEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\PropertyEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\ActorPickerMode\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ActorPickerMode;C:\Unreal\UE_4.19\Engine\Source\Editor\ActorPickerMode;C:\Unreal\UE_4.19\Engine\Source\Editor\SceneDepthPickerMode\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SceneDepthPickerMode;C:\Unreal\UE_4.19\Engine\Source\Editor\SceneDepthPickerMode;C:\Unreal\UE_4.19\Engine\Source\Editor\DetailCustomizations\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\DetailCustomizations\Public\Customizations;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DetailCustomizations;C:\Unreal\UE_4.19\Engine\Source\Editor\DetailCustomizations;C:\Unreal\UE_4.19\Engine\Source\Editor\ClassViewer\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClassViewer;C:\Unreal\UE_4.19\Engine\Source\Editor\ClassViewer;C:\Unreal\UE_4.19\Engine\Source\Editor\GraphEditor\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\GraphEditor\Public\KismetNodes;C:\Unreal\UE_4.19\Engine\Source\Editor\GraphEditor\Public\KismetPins;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\GraphEditor;C:\Unreal\UE_4.19\Engine\Source\Editor\ContentBrowser\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ContentBrowser;C:\Unreal\UE_4.19\Engine\Source\Editor\ContentBrowser;C:\Unreal\UE_4.19\Engine\Source\Runtime\NetworkFileSystem\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\NetworkFileSystem\Public\Interfaces;C:\Unreal\UE_4.19\Engine\Source\Runtime\CoreUObject\Public\Interfaces;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkFileSystem;C:\Unreal\UE_4.19\Engine\Source\Runtime\NetworkFileSystem;C:\Unreal\UE_4.19\Engine\Source\Runtime\Sockets\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Sockets;C:\Unreal\UE_4.19\Engine\Source\Runtime\Sockets;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public\Animation;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public\Binding;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public\Blueprint;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public\Components;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG\Public\Slate;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UMG;C:\Unreal\UE_4.19\Engine\Source\Runtime\UMG;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Compilation;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Evaluation;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Evaluation\Blending;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Generators;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Sections;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene\Public\Tracks;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieScene;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Evaluation;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Sections;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieSceneTracks\Public\Tracks;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieSceneTracks;C:\Unreal\UE_4.19\Engine\Source\Runtime\MovieSceneTracks;C:\Unreal\UE_4.19\Engine\Source\Runtime\Windows\XAudio2\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\Unreal\UE_4.19\Engine\Source\Runtime\Windows\XAudio2;C:\Unreal\UE_4.19\Engine\Source\Runtime\AudioMixer\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixerXAudio2;C:\Unreal\UE_4.19\Engine\Source\Runtime\Windows\AudioMixerXAudio2;C:\Unreal\UE_4.19\Engine\Source\Developer\CollectionManager\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\Unreal\UE_4.19\Engine\Source\Developer\CollectionManager;C:\Unreal\UE_4.19\Engine\Source\Editor\AddContentDialog\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;C:\Unreal\UE_4.19\Engine\Source\Editor\AddContentDialog;C:\Unreal\UE_4.19\Engine\Source\ThirdParty\IntelEmbree\Embree2140\Win64\include;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshUtilities\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshMergeUtilities\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshMergeUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshMergeUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\HierarchicalLODUtilities\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HierarchicalLODUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\HierarchicalLODUtilities;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshReductionInterface\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshReductionInterface;C:\Unreal\UE_4.19\Engine\Source\Developer\MeshReductionInterface;C:\Unreal\UE_4.19\Engine\Source\Developer\AssetTools\Public;C:\Unreal\UE_4.19\Engine\Source\Developer\AssetTools\Public\AssetTypeActions;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetTools;C:\Unreal\UE_4.19\Engine\Source\Developer\AssetTools;C:\Unreal\UE_4.19\Engine\Source\Editor\KismetCompiler\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\KismetCompiler;C:\Unreal\UE_4.19\Engine\Source\Editor\KismetCompiler;C:\Unreal\UE_4.19\Engine\Source\Editor\Kismet\Classes;C:\Unreal\UE_4.19\Engine\Source\Editor\Kismet\Public;C:\Unreal\UE_4.19\Engine\Source\Editor\Kismet\Public\Nodes;C:\Unreal\UE_4.19\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\Unreal\UE_4.19\Engine\Source\Editor\Kismet;C:\Unreal\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface;C:\Unreal\UE_4.19\Engine\Source\Runtime\ClothingSystemRuntimeInterface;C:\Unreal\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming\Public;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NetworkReplayStreaming;C:\Unreal\UE_4.19\Engine\Source\Runtime\NetworkReplayStreaming\NetworkReplayStreaming;C:\Unreal\UE_4.19\Engine\Source\Runtime\AudioMixer\Classes;C:\Unreal\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\Components;C:\Unreal\UE_4.19\Engine\Source\Runtime\AudioMixer\Public\DSP;C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AudioMixer;C:\Unreal\UE_4.19\Engine\Source\Runtime\AudioMixer;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.17763.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
+		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
+		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
+		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
+	</PropertyGroup>
+	<ItemDefinitionGroup>
+	</ItemDefinitionGroup>
+	<Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+	<ImportGroup Label="ExtensionTargets">
+	</ImportGroup>
+</Project>
