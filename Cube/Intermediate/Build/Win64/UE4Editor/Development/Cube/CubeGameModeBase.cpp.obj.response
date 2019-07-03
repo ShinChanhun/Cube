@@ -24,9 +24,9 @@
 /wd4838
 /w44668
 /I C:\Unreal\UE_4.19\Engine\Source
-/I "C:\Users\shin\Documents\Unreal Projects\Cube\Source"
-/I "C:\Users\shin\Documents\Unreal Projects\Cube\Intermediate\Build\Win64\UE4Editor\Inc\Cube"
-/I "C:\Users\shin\Documents\Unreal Projects\Cube\Source\Cube"
+/I C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Source
+/I C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Intermediate\Build\Win64\UE4Editor\Inc\Cube
+/I C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Source\Cube
 /I C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public
 /I C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Internationalization
 /I C:\Unreal\UE_4.19\Engine\Source\Runtime\Core\Public\Async
@@ -364,9 +364,9 @@
 /FI"C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Yu"C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h"
 /Fp"C:\Unreal\UE_4.19\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.pch"
-"C:\Users\shin\Documents\Unreal Projects\Cube\Source\Cube\CubeGameModeBase.cpp"
-/FI"C:\Users\shin\Documents\Unreal Projects\Cube\Intermediate\Build\Win64\UE4Editor\Development\Cube\Definitions.Cube.h"
-/Fo"C:\Users\shin\Documents\Unreal Projects\Cube\Intermediate\Build\Win64\UE4Editor\Development\Cube\CubeGameModeBase.cpp.obj"
+"C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Source\Cube\CubeGameModeBase.cpp"
+/FI"C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Intermediate\Build\Win64\UE4Editor\Development\Cube\Definitions.Cube.h"
+/Fo"C:\Users\shin\Source\Repos\ShinChanhun\Cube\Cube\Intermediate\Build\Win64\UE4Editor\Development\Cube\CubeGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4
